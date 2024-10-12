@@ -1,0 +1,115 @@
+input:not([type="radio"]){
+  margin: auto;
+  display:block;
+  margin-bottom: 40px;
+  width: 50em;
+  height: 2em;
+  text-align: center;
+  font-size: 1em;
+  background-color: rgba(0, 0, 180, 0.5);
+  border-radius: 30px;
+  margin-top: 5px;
+  color: rgb(255, 255, 255);
+  border-color: white;
+  border-style: solid;
+}
+input:focus, input:hover{
+  background-color: rgba(255, 255, 255, 0.5);
+  color:  rgba(0, 0, 180, 0.5);
+  cursor: default;
+}
+
+input[type="radio"]{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+label{
+  display: block;
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: sans-serif;
+}
+
+body{
+  background-image: url("https://cdn.pixabay.com/photo/2021/08/04/13/06/software-developer-6521720_1280.jpg");
+  color: white;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+form{
+  background-color: rgba(0, 0, 100, 0.9);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: solid;
+  border-radius: 30px;
+  width: 1000px;
+  max-width: 1000px;
+  min-width: 300px;
+  margin: 0 auto;
+  border-color: white;
+}
+
+select{
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 90px;
+  background-color: rgba(0, 0, 180, 0.5);
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+}
+textarea{
+  display: block;
+  margin: auto;
+  background-color: rgba(0, 0, 180, 0.5);
+  color: rgb(255, 255, 255) !important;
+  border-radius: 20px;
+  border-color: white;
+  padding-left: 15px;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
+textarea:hover, textarea:focus{
+  background-color: rgba(255, 255, 255, 0.5);
+  color: rgba(0, 0, 180, 0.5);
+  cursor: default;
+}
+.bio{
+  margin-top: 120px;
+}
+.text{
+  text-align: center;
+}
+.send{
+  width: 10em;
+  margin-top: 20px;
+
+}
+.aggregate{
+  border-radius: 10px;
+}
+h1, h2, h3{
+  text-align: center;
+  font-family: sans-serif;
+}
+input[class="send"]{
+  width: 10em;
+  border-radius: 10px;
+}
+.border{
+   box-shadow: 0 0 0 0.5px white;
+   margin: 0 50px;
+}
+h3[class="indicator-gender"]{
+  margin-top: 70px;
+}
+label[class="select-language"]{
+  margin-top: 50px;
+}
+input[id="female"]{
+  margin-bottom: 20px;
+}
