@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+    <head>
+
+        <meta charset="utf-8">
+        <title></title>
+        <link rel="stylesheet" href="/css/master.css">
+    </head>
+    <body>
+    <main>
+        <h1 class="text" id="title">Form</h1>
+        <h2 class="text">Fill out the form</h2>
+        <section>
+            <form class="survey-from" action="*******" method="post" id="survey-form">
+                <label for="first-name" id="name-label" class="aggregate" required>First Name</label>
+                <input type="text" name="first-name" placeholder="Your first name" id="name" required  class="aggregate">
+
+                <label for="last-name" id="last-name-label">Last Name</label>
+                <input type="text" name="last-name" placeholder="Your last name" id="last-name" required  class="aggregate">
+
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" placeholder="Your email" id="email" required  class="aggregate">
+
+                <label for="age" id="number-label"> Age</label>
+                <input type="number" name="age" min="16" max="120" placeholder="Your age" id="number" required   class="aggregate">
+                <div class="border"></div>
+                <h3 class="indicator-gender">Please indicate your gender</h3>
+                <label for="male" class="male">Male</label>
+                <input type="radio" class="male-female" id="male" name="gender" checked>
+                <label for="female" class="female">Female</label>
+                <input type="radio" class="male-female" id="female" name="gender">
+                <div class="border"></div>
+                <label for="programming-language" id="programming-language-label" class="select-language"><h3>Select the programming language you would like to learn</h3></label>
+                <select class="programming-language" name="programming-language" id="dropdown">
+                    <option value="1">Python</option>
+                    <option value="2">Java</option>
+                    <option value="3">C#</option>
+                </select>
+                <div class="border"></div>
+                <label for="About myself" class="bio">Bio:</label>
+                <textarea name="About myself" rows="8" cols="80" placeholder="Tell us about yourself"></textarea>
+
+                <input class="send" type="submit" name="send" value="Send">
+                <h1 class="text">Good luck with your studies!</h1>
+            </form>
+        </section>
+    </main>
+    </body>
+    </html>
